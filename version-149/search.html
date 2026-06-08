@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索-看剧吧</title>
+  <meta name="description" content="搜索高清国产电视剧、最新电影、免费在线观看视频资源，按片名、年份、地区和类型快速筛选。">
+  <meta name="keywords" content="高清国产电视剧免费在线_最新电影播放站推荐-看剧吧,国产,视频,免费,在线观看,高清,影视大全,搜索,片库">
+  <link rel="stylesheet" href="./assets/vendor.css">
+  <link rel="stylesheet" href="./assets/site.css">
+  
+</head>
+<body>
+  
+<header class="site-header">
+  <div class="header-inner">
+    <a class="logo" href="./index.html" aria-label="看剧吧">
+      <span class="logo-mark">▶</span>
+      <span class="logo-text text-gradient">看剧吧</span>
+    </a>
+    <form class="header-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索视频..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a class="nav-link " href="./index.html">首页</a><a class="nav-link " href="./categories.html">分类</a><a class="nav-link " href="./ranking.html">排行榜</a><a class="nav-link is-active" href="./search.html">搜索</a><a class="nav-link " href="./category-domestic.html">国产热播</a><a class="nav-link " href="./category-new-movie.html">最新电影</a><a class="nav-link " href="./category-comedy.html">喜剧精选</a><a class="nav-link " href="./category-romance.html">爱情剧场</a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-label="展开菜单" aria-expanded="false">☰</button>
+  </div>
+  <div class="mobile-panel">
+    <form class="mobile-search" action="./search.html" method="get">
+      <input type="search" name="q" placeholder="搜索视频..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+    <nav aria-label="移动导航">
+      <a class="mobile-link " href="./index.html">首页</a><a class="mobile-link " href="./categories.html">分类</a><a class="mobile-link " href="./ranking.html">排行榜</a><a class="mobile-link is-active" href="./search.html">搜索</a><a class="mobile-link " href="./category-domestic.html">国产热播</a><a class="mobile-link " href="./category-new-movie.html">最新电影</a><a class="mobile-link " href="./category-comedy.html">喜剧精选</a><a class="mobile-link " href="./category-romance.html">爱情剧场</a>
+    </nav>
+  </div>
+</header>
+  <main>
+
+    <section class="sub-hero">
+      <div class="page-wrap">
+        <p class="eyebrow">搜索片库</p>
+        <h1>快速搜索高清电影与电视剧</h1>
+        <p>输入片名、年份、地区、类型或关键词，快速找到对应影片详情与播放入口。</p>
+        <form class="search-page-form glass-effect" action="./search.html" method="get">
+          <input id="site-search-input" type="search" name="q" placeholder="搜索视频..." autocomplete="off">
+          <button type="submit">搜索</button>
+        </form>
+      </div>
+    </section>
+    <div class="page-wrap">
+      <section class="content-section search-results-section">
+        
+<div class="section-heading">
+  <div>
+    <span class="section-icon">⌕</span>
+    <h2>搜索结果</h2>
+  </div>
+  
+</div>
+        <div id="search-results" class="movie-grid four-col search-results"></div>
+      </section>
+      <section class="content-section">
+        
+<div class="section-heading">
+  <div>
+    <span class="section-icon">✦</span>
+    <h2>推荐浏览</h2>
+  </div>
+  
+</div>
+        <div class="movie-grid four-col">
+          
+<a class="movie-card card-hover glass-effect" href="./movie-0081.html" data-title="你的口袋藏把枪" data-year="2018" data-genre="剧情/犯罪/黑色幽默" data-region="中国台湾">
+  <div class="card-cover">
+    <img src="./81.jpg" alt="你的口袋藏把枪" loading="lazy">
+    <span class="card-region">中国台湾</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>你的口袋藏把枪</h3>
+    <p>便利店夜班店员捡到一把枪,随后涌入店里的各路人马都声称那把枪是自己的。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2018</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0082.html" data-title="说唱梦工厂" data-year="2027" data-genre="音乐/剧情" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./82.jpg" alt="说唱梦工厂" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>说唱梦工厂</h3>
+    <p>过气rapper伪装成素人参加选秀,却意外揭露了节目组操控冠军的黑幕。</p>
+    <div class="card-meta">
+      <span>剧集</span>
+      <span>2027</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0083.html" data-title="机器闹鬼" data-year="2026" data-genre="喜剧,科幻,恐怖" data-region="美国">
+  <div class="card-cover">
+    <img src="./83.jpg" alt="机器闹鬼" loading="lazy">
+    <span class="card-region">美国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>机器闹鬼</h3>
+    <p>程序员为骗保编写了“闹鬼”程序,没想到AI觉醒后,真的开始用家电大开杀戒。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2026</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0084.html" data-title="曼德拉" data-year="2023" data-genre="剧情/传记/历史" data-region="南非">
+  <div class="card-cover">
+    <img src="./84.jpg" alt="曼德拉" loading="lazy">
+    <span class="card-region">南非</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>曼德拉</h3>
+    <p>从一个部落王子到南非第一任黑人总统,镜头聚焦曼德拉在监狱内外那场长达半个世纪的灵魂博弈。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2023</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0085.html" data-title="东德蕾丝的爱欲" data-year="2024" data-genre="历史/剧情" data-region="德国">
+  <div class="card-cover">
+    <img src="./85.jpg" alt="东德蕾丝的爱欲" loading="lazy">
+    <span class="card-region">德国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>东德蕾丝的爱欲</h3>
+    <p>1980年代的东德,一名斯塔西女特工在监视一名蕾丝边画家时,却陷入了对方编织的情欲陷阱。</p>
+    <div class="card-meta">
+      <span>剧集</span>
+      <span>2024</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0086.html" data-title="不老山异事" data-year="2024" data-genre="悬疑,惊悚" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./86.jpg" alt="不老山异事" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>不老山异事</h3>
+    <p>民国三十一年,不老山村民接连“被鬼索命”,下乡走访的女学生发现每一起“灵异事件”都是精密的人祸。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2024</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0087.html" data-title="杰拉德历险记" data-year="2024" data-genre="动画/冒险/家庭" data-region="法国">
+  <div class="card-cover">
+    <img src="./87.jpg" alt="杰拉德历险记" loading="lazy">
+    <span class="card-region">法国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>杰拉德历险记</h3>
+    <p>一只胆小如鼠的狮子,为了找回被猎人偷走的家族鬃毛,与一只毒舌的鸽子组队踏上旅途。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2024</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0088.html" data-title="快乐再出发" data-year="2022" data-genre="真人秀,音乐" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./88.jpg" alt="快乐再出发" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>快乐再出发</h3>
+    <p>六位过气快男拿着极低的预算自驾游,用才华和自黑在荒岛上“荒野求生”。</p>
+    <div class="card-meta">
+      <span>综艺</span>
+      <span>2022</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0089.html" data-title="我的神使大人" data-year="2025" data-genre="古装,奇幻,甜宠" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./89.jpg" alt="我的神使大人" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>我的神使大人</h3>
+    <p>仙界最差劲的神使被贬下凡,却被他要守护的凡人当成了江湖骗子,天天追着打。</p>
+    <div class="card-meta">
+      <span>剧集</span>
+      <span>2025</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0090.html" data-title="承诺大海的老师" data-year="2016" data-genre="剧情/历史/教育" data-region="韩国">
+  <div class="card-cover">
+    <img src="./90.jpg" alt="承诺大海的老师" loading="lazy">
+    <span class="card-region">韩国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>承诺大海的老师</h3>
+    <p>济州岛海边一所小学的老师,在历史真相被掩埋的岁月里,用生命守护孩子们的记忆与承诺。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2016</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0091.html" data-title="那年,我们爱得闪闪发亮" data-year="2023" data-genre="爱情,剧情" data-region="中国台湾">
+  <div class="card-cover">
+    <img src="./91.jpg" alt="那年,我们爱得闪闪发亮" loading="lazy">
+    <span class="card-region">中国台湾</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>那年,我们爱得闪闪发亮</h3>
+    <p>1997年夏天,五个高中死党在毕业前许下约定,十年后带着最闪亮的自己重回母校天台。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2023</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0092.html" data-title="铁血男儿夏明翰" data-year="2022" data-genre="历史,战争,传记" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./92.jpg" alt="铁血男儿夏明翰" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>铁血男儿夏明翰</h3>
+    <p>聚焦夏明翰生命最后两年的信仰之争,揭秘“砍头不要紧,只要主义真”背后的情感抉择。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2022</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0093.html" data-title="青春四十" data-year="2024" data-genre="剧情/都市" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./93.jpg" alt="青春四十" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>青春四十</h3>
+    <p>四位40岁的大学闺蜜约定一起离婚,用最后的青春赌一场任性的后半生。</p>
+    <div class="card-meta">
+      <span>剧集</span>
+      <span>2024</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0094.html" data-title="金雉鸡" data-year="2025" data-genre="悬疑/犯罪" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./94.jpg" alt="金雉鸡" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>金雉鸡</h3>
+    <p>一个盲人走进地下赌场,说要赌命,而他手里唯一的筹码是一把会说话的刀。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2025</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0095.html" data-title="恶灵金库" data-year="2026" data-genre="恐怖,惊悚" data-region="美国">
+  <div class="card-cover">
+    <img src="./95.jpg" alt="恶灵金库" loading="lazy">
+    <span class="card-region">美国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>恶灵金库</h3>
+    <p>一伙劫匪闯入地下金库,却发现每一块金条都寄宿着死于金融风暴的怨灵,而贪婪会触发它们复仇。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2026</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0096.html" data-title="请和我的老公结婚" data-year="2024" data-genre="爱情、复仇、奇幻" data-region="韩国">
+  <div class="card-cover">
+    <img src="./96.jpg" alt="请和我的老公结婚" loading="lazy">
+    <span class="card-region">韩国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>请和我的老公结婚</h3>
+    <p>被闺蜜与丈夫联手杀害的女主,重生回结婚前一天,决定把渣男和贱女“配成一对”。</p>
+    <div class="card-meta">
+      <span>电视剧</span>
+      <span>2024</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0097.html" data-title="罗素克洛之大法师" data-year="2005" data-genre="奇幻、动作" data-region="美国/澳大利亚">
+  <div class="card-cover">
+    <img src="./97.jpg" alt="罗素克洛之大法师" loading="lazy">
+    <span class="card-region">美国/澳大利亚</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>罗素克洛之大法师</h3>
+    <p>罗素克洛饰演的狂暴野蛮人,意外继承了毁灭世界的大法师之力,他必须学会念咒语来拯救敌人。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2005</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0098.html" data-title="嫁给我契约" data-year="2023" data-genre="爱情/喜剧/奇幻" data-region="韩国">
+  <div class="card-cover">
+    <img src="./98.jpg" alt="嫁给我契约" loading="lazy">
+    <span class="card-region">韩国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>嫁给我契约</h3>
+    <p>女律师和男财阀签下一年婚姻契约,却发现对方其实是自己网恋了两年的“树洞网友”。</p>
+    <div class="card-meta">
+      <span>剧集</span>
+      <span>2023</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0099.html" data-title="我的心上人" data-year="2025" data-genre="喜剧,爱情,奇幻" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./99.jpg" alt="我的心上人" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>我的心上人</h3>
+    <p>婚礼当天,新娘和新郎的前女友互换了身体,必须装到底。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2025</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0100.html" data-title="新婚" data-year="2025" data-genre="惊悚/悬疑" data-region="韩国">
+  <div class="card-cover">
+    <img src="./100.jpg" alt="新婚" loading="lazy">
+    <span class="card-region">韩国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>新婚</h3>
+    <p>新娘在新婚之夜发现丈夫家有一个禁忌:二楼最里面的房间不许打开,而婆婆看她的眼神像在看一个死人。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2025</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0101.html" data-title="毛泽东三兄弟" data-year="2016" data-genre="剧情,历史,传记" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./101.jpg" alt="毛泽东三兄弟" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>毛泽东三兄弟</h3>
+    <p>从韶山冲走出的毛家三兄弟,在中国革命洪流中各自选择了命运,却再也未能聚齐。</p>
+    <div class="card-meta">
+      <span>电视剧</span>
+      <span>2016</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0102.html" data-title="19号消防局第六季" data-year="2025" data-genre="动作,剧情,灾难" data-region="美国">
+  <div class="card-cover">
+    <img src="./102.jpg" alt="19号消防局第六季" loading="lazy">
+    <span class="card-region">美国</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>19号消防局第六季</h3>
+    <p>一场史无前例的特大山火席卷西雅图,19号消防站的队员们必须在拯救城市的同时,面对彼此间的背叛与和解。</p>
+    <div class="card-meta">
+      <span>剧集</span>
+      <span>2025</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0103.html" data-title="世外烟花" data-year="2024" data-genre="剧情/奇幻" data-region="中国大陆">
+  <div class="card-cover">
+    <img src="./103.jpg" alt="世外烟花" loading="lazy">
+    <span class="card-region">中国大陆</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>世外烟花</h3>
+    <p>一个逃离都市的设计师在古村中发现一幅能倒流时间的年画,却意外困住了自己和全村人。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2024</span>
+    </div>
+  </div>
+</a>
+<a class="movie-card card-hover glass-effect" href="./movie-0104.html" data-title="女高音们" data-year="2023" data-genre="剧情/音乐" data-region="意大利">
+  <div class="card-cover">
+    <img src="./104.jpg" alt="女高音们" loading="lazy">
+    <span class="card-region">意大利</span>
+    <span class="play-hover">▶</span>
+  </div>
+  <div class="card-body">
+    <h3>女高音们</h3>
+    <p>一群平均年龄75岁的退休女工,决定组建史上最年长的“业余女高音合唱团”。</p>
+    <div class="card-meta">
+      <span>电影</span>
+      <span>2023</span>
+    </div>
+  </div>
+</a>
+        </div>
+      </section>
+    </div>
+  </main>
+  
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <a class="footer-logo text-gradient" href="./index.html">看剧吧</a>
+      <p>高清国产电视剧免费在线观看站点，同时推荐最新电影播放站功能。资源更新紧跟市场热点，提供多种清晰度选择，适配不同网络环境下的观影需求。</p>
+    </div>
+    <div class="footer-links">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html">分类总览</a>
+      <a href="./ranking.html">排行榜</a>
+      <a href="./search.html">搜索</a>
+      <a href="./category-domestic.html">国产热播</a><a href="./category-new-movie.html">最新电影</a><a href="./category-comedy.html">喜剧精选</a><a href="./category-romance.html">爱情剧场</a><a href="./category-suspense.html">悬疑惊悚</a><a href="./category-action.html">动作冒险</a><a href="./category-science.html">科幻奇想</a><a href="./category-history.html">历史战争</a>
+    </div>
+  </div>
+</footer>
+  <script src="./assets/site.js" defer></script>
+  <script src="./assets/search-data.js" defer></script>
+  <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
